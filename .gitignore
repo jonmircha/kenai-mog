@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Base de datos SQLite y sus archivos WAL
+/datos/*.sqlite
+/datos/*.sqlite-wal
+/datos/*.sqlite-shm
+
+# Logs
+*.log
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp

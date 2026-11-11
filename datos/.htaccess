@@ -1,0 +1,9 @@
+# Defensa en profundidad: denegar todo acceso HTTP directo a la carpeta de datos.
+# Aquí vive la base SQLite; solo index.php la toca, desde el disco.
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+</IfModule>
