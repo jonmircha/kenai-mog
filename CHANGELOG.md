@@ -7,6 +7,8 @@ y el proyecto sigue [Versionado Semántico](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-11-11
+
 ### Added
 
 - **Esqueleto funcional de kEnAi MOG — Minimalist Onefile Generator.** Toda la
@@ -26,3 +28,6 @@ y el proyecto sigue [Versionado Semántico](https://semver.org/lang/es/).
     (tema claro, la misma identidad que MSG y MAG), más el favicon e imagotipo de marca.
   - **Demo**: una lista de tareas (agregar, alternar, eliminar).
   - **`.htaccess`** con HTTPS forzado y bloqueo de la carpeta de datos.
+
+[Unreleased]: https://github.com/jonmircha/kenai-mog/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/jonmircha/kenai-mog/releases/tag/v1.0.0
